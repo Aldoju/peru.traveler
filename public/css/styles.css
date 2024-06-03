@@ -11254,13 +11254,13 @@ header.masthead .masthead-heading {
 .img-brand {
   height: 2.75rem;
 }
-
 section#contact {
   background-color: #212529;
-  background-image: url("https://www.shutterstock.com/image-photo/businessman-using-smart-phone-email-600nw-2306744905.jpg");
+  background-image: url("https://experienciajoven.com/wp-content/uploads/2023/01/vivir-viajando_cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
+
 section#contact .section-heading {
   color: #fff;
 }
@@ -11308,6 +11308,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+
 
 .footer {
   text-align: center;

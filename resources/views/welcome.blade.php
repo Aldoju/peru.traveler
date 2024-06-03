@@ -239,18 +239,6 @@
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container align-items-center justify-content-center ">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                {{-- <form id="contactForm" data-sb-form-api-token="API_TOKEN"> --}}
                 <div class="row align-items-center justify-content-center mb-5 text-white center-content">
                     <div class="col-md-6">
                         <h3>Contact Us</h3>
