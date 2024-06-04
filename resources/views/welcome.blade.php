@@ -166,12 +166,12 @@
 
         
         <!-- Team-->
-        <section class="page-section bg-light" id="team">
+        <section class="page-section bg-light" id="team" >
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Nuestro Equipo</h2>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/emerson.jpg" alt="..." />
@@ -193,11 +193,14 @@
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
+                </div>
+
+                <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/persona.jpeg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/diego.jpg" alt="..." />
+                            <h4>Diego</h4>
+                            <p class="text-muted">Comunicador social</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -205,9 +208,9 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/nataly.jpg" alt="..." />
+                            <h4>Nataly</h4>
+                            <p class="text-muted">Gestora turística</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -287,16 +290,16 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Información de destinos</h2>
-                                    <p class="item-intro text-muted">¿Cansado de viajes arruinados por no saber del clima y las costumbres del destino?</p>
+                                    <p class="item-intro text-muted">¿No sabes que lugar visitar?</p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://www.viajes-carrefour.com/blog/wp-content/uploads/2018/07/viajero-perdida-equipaje.jpg" alt="..." />
                                         </div>
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://www.togetherprice.com/es/static/85ae2f7da0f13cc1982954090ca52d55/f2cbb/70460d3f-8cef-459c-bcef-2ce04f4d6834.jpg" style="width: 400px; height: 222px" alt="..." />
                                         </div>
                                     </div>
-                                    <p>Con PeruTraveler tendrás información importante de costumbres y clima de los lugares que visites y prepararte para tu aventura</p>
+                                    <p>Con PeruTraveler tendrás información importante de costumbres de los lugares que puedes visitar y prepararte para tu aventura</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Cerrar
@@ -323,10 +326,10 @@
                                     <p class="item-intro text-muted">¿No sabes en qué lugar comer y qué comer?</p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRneeWR5CKAXsJ0hHyqRZ2bM-8zh1YZm7iwIw&s" alt="..." />
                                         </div>
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://assets-global.website-files.com/5f4f67c5950db17954dd4f52/5f5b7c7e0efe9d21f44ebb82_05_APPS_RESTAURANTES.webp" style="width: 400px; height: 210px" alt="..." />
                                         </div>
                                     </div>
                                     <p>PeruTraveler te da información de restaurantes, sus calificaciones y los platos tipicos que sirve. Además puedes hacer reserva de los restaurantes desde el aplicativo de manera fácil</p>
@@ -355,10 +358,10 @@
                                     <p class="item-intro text-muted">¿Llegaste a tu destino y no sabes en dónde hospedarte?</p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://www.eluniversal.com.mx/resizer/Pjvk8Ba3TyBcF3wflJ5CLGGrCnU=/1100x666/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/U4FVZ7KGFBEQ3I3IG5NL7A3EJM.jpg" alt="..." />
                                         </div>
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://patriciavela.com/wp-content/uploads/2022/10/Fotos-disen%CC%83os-para-web-5-1024x1024.png" alt="..." style="width: 400px; height: 239px"/>
                                         </div>
                                     </div>
                                     <p>PeruTraveler te brinda información de los hoteles, precios de paquetes de reservas y calificación para que realices tus reservas con anticipación y presupuesto planificado</p>
@@ -383,27 +386,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Información de Clima</h2>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2023/09/08/64fb8bf999a9d7048323432a.webp" style="height: 220px" alt="..." />
                                         </div>
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://noticiassalamanca.com/wp-content/uploads/2023/04/ritual-gente-feliz-1-kR7H-1200x630@abc-331x219.jpg" style="height: 145px alt="..." />
                                         </div>
                                     </div>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
+                                    <p>Peru Traveler te da información del clima y asi puedas prepararte para elegir tu destino y lo que venga en tu próxima aventura</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -425,26 +417,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Información de transporte</h2>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://us.123rf.com/450wm/photosvit/photosvit2012/photosvit201202172/160655012-parada-autom%C3%A1tica-de-viajes-de-viajeros-tur%C3%ADsticos-problemas-de-transporte-elija-un-lugar-donde-el.jpg" alt="..." />
                                         </div>
                                         <div class="col-md-6">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="https://grupoverona.pe/wp-content/uploads/2021/05/050505_734411.jpg"  style="height: 260px" alt="..." />
                                         </div>
                                     </div>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
+                                    <p>Peru Traveler te da información de las empresas de taxi disponibles en tu destino turístico, viaja seguro e informado</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
