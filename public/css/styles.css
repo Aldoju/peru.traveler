@@ -11254,12 +11254,14 @@ header.masthead .masthead-heading {
 .img-brand {
   height: 2.75rem;
 }
+
 section#contact {
   background-color: #212529;
-  background-image: url("https://experienciajoven.com/wp-content/uploads/2023/01/vivir-viajando_cover.jpg");
+  background-image: url("/assets/img/contacto.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 section#contact .section-heading {
   color: #fff;

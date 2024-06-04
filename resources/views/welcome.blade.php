@@ -21,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.jpg"  width="210px" height="140px"    alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -55,14 +55,14 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-square fa-stack-2x text-primary"></i>
+                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Completo</h4>
                         <p class="text-muted">Todo lo que necesitas para viajar en un solo lugar</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
+                        <span class="fas fa-pencil-alt fa-8x text-warning">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/persona.jpeg" alt="..." />
                             <h4>Larry Parker</h4>
                             <p class="text-muted">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -237,8 +237,8 @@
             </div>
         </div>
         <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container align-items-center justify-content-center ">
+        <section class="page-section" id="contact" style="background-image: url('https://ecommerceapi.assistcard.com/Api/ImagesHandler/GetImage?freeImageCode=cus-02'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 1500px; height: 600px">
+            <div class="container align-items-center justify-content-center">
                 <div class="row align-items-center justify-content-center mb-5 text-white center-content">
                     <div class="col-md-6">
                         <h3>Contact Us</h3>
@@ -288,13 +288,21 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Información de destinos</h2>
                                     <p class="item-intro text-muted">¿Cansado de viajes arruinados por no saber del clima y las costumbres del destino?</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                    </div>
                                     <p>Con PeruTraveler tendrás información importante de costumbres y clima de los lugares que visites y prepararte para tu aventura</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Cerrar
                                     </button>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -313,7 +321,14 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Reserva de Restaurantes</h2>
                                     <p class="item-intro text-muted">¿No sabes en qué lugar comer y qué comer?</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                    </div>
                                     <p>PeruTraveler te da información de restaurantes, sus calificaciones y los platos tipicos que sirve. Además puedes hacer reserva de los restaurantes desde el aplicativo de manera fácil</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
@@ -338,7 +353,14 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Reserva de hoteles</h2>
                                     <p class="item-intro text-muted">¿Llegaste a tu destino y no sabes en dónde hospedarte?</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                    </div>
                                     <p>PeruTraveler te brinda información de los hoteles, precios de paquetes de reservas y calificación para que realices tus reservas con anticipación y presupuesto planificado</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
@@ -363,7 +385,14 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                    </div>
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -397,8 +426,14 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                        </div>
+                                    </div>
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
