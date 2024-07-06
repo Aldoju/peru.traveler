@@ -21,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.jpg"  width="210px" height="140px"    alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.jpg"  width="210px" height="200px"    alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -77,6 +77,17 @@
                         <h4 class="my-3">Seguro</h4>
                         <p class="text-muted">Tu seguridad es nuestra prioridad, Contamos con técnicas de autenticación y encriptación de tus datos</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- video-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Video</h2>
+                </div>
+                <div class="row text-center">
+                    <iframe width="280" height="500" src="https://www.youtube.com/embed/OpE1dc_Fw7o?si=k-XFlVSX7IP-H9aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
